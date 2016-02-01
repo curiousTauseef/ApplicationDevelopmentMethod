@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>The Web coffee machine</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <p id="data"></p>
+        <p id="message"></p>
+        <p>Power: <span id="power"></span></p>
+        <p>Water Level: <span id="waterLevel"></span></p>
+        <p>Coffee Beans: <span id="coffeeBeans"></span></p>
+        <p>Milk Level: <span id="milkLevel"></span></p>
+        <br>
+        <div>
+        <form>
+            <button id = "turnOnBtn">Turn on/off</button>
+            <button id = "getCoffeeBtn">Get a regular coffee</button>
+            <button id = "getEspressoBtn">Get a espresso coffee</button>
+            <button id = "getCappuccinoBtn">Get a cappuccino coffee</button>
+        </form>
+        <br>
+        <form onsubmit="addWater()">
+            <input type="number" min="1" value="1" id="waterAmount"/>
+            <button type="submit">Add water</button>
+        </form>
+        <form onsubmit="addCoffeeBeans()">
+            <input type="number" min="1" value="1" id="coffeeBeansAmount"/>
+            <button type="submit">Add coffee beans</button>
+        </form>
+        <form onsubmit="addMilk()">
+            <input type="number" min="1" value="1" id="milkAmount"/>
+            <button type="submit">Add milk</button>
+        </form>
+        </div>
+        <br><br>
+        <img style="width:300px;height: 300px" src="assets/coffeemachine.jpg" />
+        <script type="text/javascript" src="js/jquery.js" ></script>
+        <script type="text/javascript" src="js/coffeeMachineFunctions.js" ></script>
+    </body>
+</html>

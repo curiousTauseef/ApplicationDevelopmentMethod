@@ -45,3 +45,16 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+/Session2/Lab1/nbproject/private/
+/Session2/Lab1/build/
+/Session2/Lab2/nbproject/private/
+/Session2/Lab2/build/
+/Session2/Lab3/nbproject/private/
+/Session2/Lab3/build/
+/Session2/lab4/nbproject/private/
+/Session2/lab4/build/
+/Session2/lab4/dist/
+/Session2/lab4AdvancedCoffeeMachine/nbproject/private/
+/Session2/lab4AdvancedCoffeeMachine/build/
+/Session2/lab4AdvancedCoffeeMachine/dist/
+/Session2/mavenproject1/REST_APIs_with_JAX-RS-Messenger_app/target/
