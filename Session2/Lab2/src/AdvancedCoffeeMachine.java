@@ -9,8 +9,12 @@ import java.io.Serializable;
 
 public class AdvancedCoffeeMachine extends CoffeeMachine implements Serializable {
     
-    private final int MAX_MILK = 2000;
+    protected final int MAX_MILK = 2000;
     private int milkLevel;
+
+    public int getMilkLevel() {
+        return milkLevel;
+    }
     
     /**
      * default constructor
